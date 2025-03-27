@@ -1,0 +1,16 @@
+/*/
+ * @name hideDiscoveryButton
+ * @author senji
+ * @description Hides the new Discovery Button at the bottom of the server bar.
+ * @version 1.0
+ * @authorId 528374256803905557
+ * @website https://ssenjii.github.io/
+ * @source https://github.com/ssenjii/vc-snippets#hide-discovery-button
+/*/
+
+.listItemWrapper__91816:has([aria-label="Discover"]) {
+  display: none !important;
+  width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
